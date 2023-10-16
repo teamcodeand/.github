@@ -72,13 +72,13 @@ body:
         Device:
         OS:
         Browser:
-      render: |
+      value: |
         Device:
         OS:
         Browser:
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: context
     attributes:
       label: Additional context
@@ -94,3 +94,9 @@ body:
         - Do you have a possible solution or a short term workaround for it?
 
         - Can you provide screenshots or even better a video walkthrough of what you're seeing?
+  - type: textarea
+    id: logs
+    attributes:
+      label: 'Developers: relevant log output'
+      description: Copy/paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
