@@ -1,0 +1,98 @@
+name: 🌟 Enhancement
+description: Suggest an enhancement for this project
+title: 'Feature: '
+labels:
+  - enhancement 🌟
+  - needs triage 👀
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Thanks for filling out this feature request! Every detail you add helps
+        us build a better product for you, so we really appreciate you taking
+        the time.
+
+
+        Are you reporting something that is broken? Please use the Bug Report
+        instead.
+  - type: textarea
+    id: current
+    attributes:
+      label: Current behavior
+      description: >-
+        Does this issue seek to improve something that already exists in the
+        project? 
+        
+        Please describe or N/A if no current behaviour.
+      placeholder: >-
+        When I [perform an action] as a [type of user e.g. logged in customer],
+        I cannot [see/do something]. 
+  - type: textarea
+    id: suggested
+    attributes:
+      label: Suggested solution
+      description: >-
+        Describe the solution you would like to see implemented in as much detail as
+        possible.
+      placeholder: >-
+        When I [perform an action] as a [type of user e.g. logged in customer],
+        I should be able to [see/do something]. This could be achieved by [...]
+        and we will need to make sure [...].
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      description: Is this aimed at a particular device or screensize? (Multiple allowed).
+      multiple: true
+      options:
+        - 📱 Phone
+        - 💊 Tablet
+        - 💻 Laptop
+        - 🖥️ Big screens
+        - 🙅 N/A
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority when first reported
+      description: >-
+        When would you ideally like us to work on this? (We will discuss and
+        assign actual priorities with you).
+      options:
+        - 🏃‍♀ P2 - Once the urgent tasks are finished
+        - ⚡ P1 - As the first task in the next sprint
+        - 🏖 P3 - This can wait
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context & useful links
+      description: >-
+        Add any other context about the issue and/or add helpful links,
+        screenshots & videos. You can use Slack to record your screen and paste
+        the link here. 
+
+        
+        These might shake some thought coconuts from the ole
+        noggin...
+        
+        - Have you seen this somewhere else that you can link to as an
+        example?
+        
+        - Who is the target audience for this feature/change request?
+        e.g. admin, shop managers, customers, students, etc.
+        
+        - What are the use cases for this feature/change request?
+        
+        - Are there any technical requirements or limitations that need 
+        to be considered?
+        
+        - Are there any potential risks or challenges associated with 
+        this feature/change request?
+        
+        - Are there any design requirements or considerations?
+      placeholder: 'This idea came to me when I [...] and noticed that [...]. '

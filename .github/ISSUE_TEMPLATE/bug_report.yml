@@ -1,0 +1,96 @@
+name: 🐛 Bug report
+description: Let us know something is broken and needs fixing
+title: "Fix: "
+labels:
+  - bug 🐛
+  - needs triage 👀
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Thanks for taking the time to fill out this bug report! Every detail you add helps
+        us build a better product for you, so we really appreciate you taking
+        the time.
+
+
+        Are you suggesting a new feature? Please use the Feature Request instead.
+  - type: checkboxes
+    id: cache
+    attributes:
+      label: Browser cache
+      description: >-
+        Sanity check - can you still see the issue after clearing your browser cache?
+
+
+        This applies even if you are a developer!
+      options:
+        - label: Of course I have cleared my cache.
+          required: true
+  - type: textarea
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+      placeholder: >-
+        When I [perform an action] as a [type of user e.g. logged in customer],
+        on [this page], I cannot [see/do something] because [computer said no].
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      description: >-
+        Describe how to reproduce the behavior OR record a video showing the bug.
+
+        You can use Slack to record your screen and paste a link to the video in here.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected result
+      description: What should have happened after the steps were completed?
+      placeholder: >-
+        I expected [computer to say yes] and I would be redirected to [only good things].
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Device & browser
+      description: >-
+        Add your device and browser information. It helps if you include
+
+        - Device [e.g. iPhone X, Samsung Galaxy S10]
+
+        - OS [e.g. iOS 14.4, Android 11]
+
+        - Browser [e.g. Chrome 89, Safari 14.0.3]
+      placeholder: |
+        Device:
+        OS:
+        Browser:
+      render: |
+        Device:
+        OS:
+        Browser:
+    validations:
+      required: true
+  - type: input
+    id: context
+    attributes:
+      label: Additional context
+      description: >-
+        Add any other context about the problem or helpful links here. For example,
+
+        - Is this on staging, or the live site?
+
+        - Did it start happening after a change was made?
+
+        - Does it only happen in certain circumstances?
+
+        - Do you have a possible solution or a short term workaround for it?
+
+        - Can you provide screenshots or even better a video walkthrough of what you're seeing?

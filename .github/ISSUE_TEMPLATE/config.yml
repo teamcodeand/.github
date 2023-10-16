@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 Code& Slack
+    url: https://teamcodeand.slack.com/
+    about: "For anything urgent (site down, checkout not accepting payments, etc), ask us in Slack."
