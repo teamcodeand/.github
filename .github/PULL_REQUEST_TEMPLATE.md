@@ -9,30 +9,30 @@
   - 🧳 Added a database dump to /db/123 OR set this up on staging.
 -->
 
-## Description
-
-<!-- 
-Please do not leave this blank 
-This PR [adds/removes/fixes/replaces] the [feature/bug/etc]. 
--->
-
 ## Related Issue(s)
 
-<!-- 
+<!--
 Please use this to link issue numbers: Relates to #123
 If this project uses Zenhub, please also 'connect' this PR to the issue.
 See: https://help.zenhub.com/support/solutions/articles/43000615530-zenhub-s-issue-and-pr-connections
 -->
 
+## Description
+
+<!--
+Please do not leave this blank
+This PR [adds/removes/fixes/replaces] the [feature/bug/etc].
+-->
+
 ## Mobile & Desktop Screenshots/Recordings
 
-<!-- 
+<!--
 - Videos should be recorded in Slack and shared in the project channel.
 - They should show what you've done in this PR and how it can be tested.
 - Be aware that your video will be client facing - it doesn't necessarily need
   to be FOR them, but assume it will be seen BY them.
 - This should be done even for small changes. An explainer in your own words
-  can be invaulable insight for the reviewer or client.
+  can be invaluable insight for the reviewer or client.
 -->
 
 ## Added to documentation?
@@ -56,7 +56,7 @@ See https://github.com/teamcodeand/trellis-server#databases--media
 
 ## [optional] Are there any post-deployment tasks we need to perform?
 
-<!-- 
+<!--
 - Database changes? Link to issue.
 - Trellis config? Link to PR.
 - Specific person to notify? Who and how?
