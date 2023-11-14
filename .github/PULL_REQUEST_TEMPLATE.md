@@ -54,11 +54,12 @@ You can:
 See https://github.com/teamcodeand/trellis-server#databases--media
 -->
 
-## [optional] Are there any post-deployment tasks we need to perform?
+## [optional] Are there any post-deployment or post-merge tasks we need to perform?
 
 <!--
-- Database changes? Link to issue.
+- Database changes? Create a follow up issue/add a comment to an existing issue tracking db changes. Add a link here. e.g. DB changes followed up in #123, comment left in deploy task #234 etc.
 - Trellis config? Link to PR.
 - Specific person to notify? Who and how?
+- N/A for nothing to be done.
 -->
 
