@@ -47,6 +47,7 @@ This PR [adds/removes/fixes/replaces] the [feature/bug/etc].
 - [ ] 🙅 no special database needed, sync from production
 
 <!--
+If you were the developer being handed this PR, would you appreciate a ready-to-go database?
 You can:
 - Export from local (./bin/sync.sh development example.com db export)
 - Create a folder for this issue and move the dump there e.g. /db/123/
